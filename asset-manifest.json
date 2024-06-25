@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kitab-Web-App/static/css/main.3ab3d1cb.css",
+    "main.js": "/Kitab-Web-App/static/js/main.686d9127.js",
+    "static/media/Serchbackground.jpg": "/Kitab-Web-App/static/media/Serchbackground.b2d2fb0ead4835452517.jpg",
+    "static/media/404.png": "/Kitab-Web-App/static/media/404.0b4bcbb854868a7d8e3b.png",
+    "index.html": "/Kitab-Web-App/index.html",
+    "main.3ab3d1cb.css.map": "/Kitab-Web-App/static/css/main.3ab3d1cb.css.map",
+    "main.686d9127.js.map": "/Kitab-Web-App/static/js/main.686d9127.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ab3d1cb.css",
+    "static/js/main.686d9127.js"
+  ]
+}

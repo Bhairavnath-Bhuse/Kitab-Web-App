@@ -4,7 +4,7 @@ import './Categories.css';
 
 export default function Categories() {
   const context = useContext(AppContext);
-  const { baseUrl, category, setCategory, fetchData, setPagenum } = context;
+  const { category, setCategory, setPagenum ,fetchData} = context;
   const [categorybtn, setCategorybtn] = useState(false);
   const [activeButton, setActiveButton] = useState('');
 
@@ -18,8 +18,9 @@ export default function Categories() {
 
   useEffect(() => {
     if (categorybtn) {
-      fetchData();
+      fetchData()
     }
+    // eslint-disable-next-line
   }, [categorybtn, category]);
 
   return (

@@ -3,7 +3,7 @@ import { AppContext } from '../Context/AppContext';
 
 export default function Pagination() {
   const context = useContext(AppContext);
-  const { pagenum, setPagenum, fetchData} = context;
+  const { pagenum, setPagenum, fetchData } = context;
   
   const[next,setNext]=useState(false);
   const[prev,setPrev]=useState(false);
@@ -33,7 +33,7 @@ export default function Pagination() {
       setNext(false);
       fetchData();
      }
-
+    //eslint-disable-next-line
   },[prev,next])
 
 

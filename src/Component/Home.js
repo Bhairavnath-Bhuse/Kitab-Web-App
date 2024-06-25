@@ -6,12 +6,14 @@ import Main from './Main'
 import { AppContext } from '../Context/AppContext'
 import { useContext,useEffect } from 'react'
 
-
 export default function Home() {
     const context=useContext(AppContext);
-    const{fetchData,loading,readMoreClicked}=context;
+  const { fetchData } = context;
+  
+    const{loading}=context;
     useEffect(()=>{
       fetchData();
+      // eslint-disable-next-line
     },[]);
   
   return (

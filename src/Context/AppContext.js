@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useState } from 'react';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 // const http = require('https');

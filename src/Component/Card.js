@@ -6,7 +6,7 @@ export default function Card({ result }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showFullTitle, setShowFullTitle] = useState(false);
   const [showFullAuthor,setShowFullAuthor]=useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const openModal = () => {
     setIsModalOpen(true);

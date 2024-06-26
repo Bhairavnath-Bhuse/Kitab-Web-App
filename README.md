@@ -4,7 +4,7 @@
 
 ## Description
 
-Kitab is a web application that fetches data from the Bookfinder API and displays information about various books. The application is designed to help users find books based on different categories.
+Kitab is a web application that fetches data from the Bookfinder API and displays information about various books. The application is designed to help users find books based on different categories also features such as, Searching for books by Title or Author, Displaying Book Covers, and Provides Summary
 
 ## Features
 
@@ -36,7 +36,7 @@ Kitab is a web application that fetches data from the Bookfinder API and display
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/kitab.git
+   git clone https://github.com/Bhairavnath-Bhuse/Kitab-Web-App.git
 
 
 2. Navigate to the project directory

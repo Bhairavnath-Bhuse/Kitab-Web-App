@@ -1,6 +1,6 @@
 # Kitab
 
-[Kitab Web Application](https://kitab-bhairavnath-web-app.netlify.app/)
+[Kitab Web Application](https://cheery-cupcake-ba3d19.netlify.app/)
 
 ## Description
 
